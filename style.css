@@ -1,0 +1,160 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat-bold";
+}
+
+/* Navigation Styles */
+.navbar {
+    padding-bottom: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+
+}
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 3rem ;
+    font-weight: bold ;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+#title  {
+    background-color: #a5a94a;
+    color: #fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 1%;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 10%;
+    margin: 6px;
+}
+
+#testimonials {
+  background-color: #b7a3d8;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+.secondHalf {
+    flex: 1;
+}
+
+/* Section Styles */
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 40px 0;
+}
+#content1 {
+    background-color: #c6d488;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 40px 0;
+}
+.paras {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#cta {
+    background-color: #e6e5a7;
+}
+
+.sectiontag {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.sectionSubtag {
+    font-size: 18px;
+}
+.section3 {
+    text-align: left;
+}
+
+.thumbnail {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.img-fluid {
+    width: 50%;
+    height: 10%;
+}
+.imgFluid {
+    width: 50%;
+    height: 10%;
+
+}
+
+.text-center {
+    text-align: center;
+}
+.text-big {
+    font-size: 18px;
+}
+
+#contact {
+    padding: 50px 0;
+}
+
+.container {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #343a40;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.btn-dark {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.btn-dark:hover {
+    background-color: #1d2124;
+}
+#footer {
+    background-color: #a5a94a;
+    padding: 1% 1%;
+}
